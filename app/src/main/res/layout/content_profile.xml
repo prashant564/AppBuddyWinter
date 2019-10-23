@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="username"
+        android:text="@string/username"
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold"
@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="email"
+        android:hint="@string/email"
         android:layout_below="@+id/nameUser"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
@@ -50,7 +50,7 @@
         android:background="@drawable/side_nav_bar"
         android:onClick="logOut"
         android:padding="10dp"
-        android:text="LOG ME OUT"
+        android:text="@string/log_out"
         android:textStyle="bold|italic" />
 
 </RelativeLayout>
